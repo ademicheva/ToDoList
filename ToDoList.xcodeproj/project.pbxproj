@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		C79EBB622875DA0100CAE74B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79EBB612875DA0100CAE74B /* AppDelegate.swift */; };
 		C79EBB642875DA0100CAE74B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79EBB632875DA0100CAE74B /* SceneDelegate.swift */; };
-		C79EBB662875DA0100CAE74B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79EBB652875DA0100CAE74B /* ViewController.swift */; };
 		C79EBB692875DA0100CAE74B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79EBB672875DA0100CAE74B /* Main.storyboard */; };
 		C79EBB6C2875DA0100CAE74B /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C79EBB6A2875DA0100CAE74B /* ToDoList.xcdatamodeld */; };
 		C79EBB6E2875DA0400CAE74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C79EBB6D2875DA0400CAE74B /* Assets.xcassets */; };
 		C79EBB712875DA0400CAE74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C79EBB6F2875DA0400CAE74B /* LaunchScreen.storyboard */; };
+		C79EBB792875DA7400CAE74B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C79EBB782875DA7400CAE74B /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C79EBB5E2875DA0100CAE74B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C79EBB612875DA0100CAE74B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C79EBB632875DA0100CAE74B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C79EBB652875DA0100CAE74B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C79EBB682875DA0100CAE74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C79EBB6B2875DA0100CAE74B /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		C79EBB6D2875DA0400CAE74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C79EBB702875DA0400CAE74B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C79EBB722875DA0400CAE74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C79EBB782875DA7400CAE74B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 			children = (
 				C79EBB612875DA0100CAE74B /* AppDelegate.swift */,
 				C79EBB632875DA0100CAE74B /* SceneDelegate.swift */,
-				C79EBB652875DA0100CAE74B /* ViewController.swift */,
 				C79EBB672875DA0100CAE74B /* Main.storyboard */,
+				C79EBB782875DA7400CAE74B /* TableViewController.swift */,
 				C79EBB6D2875DA0400CAE74B /* Assets.xcassets */,
 				C79EBB6F2875DA0400CAE74B /* LaunchScreen.storyboard */,
 				C79EBB722875DA0400CAE74B /* Info.plist */,
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C79EBB662875DA0100CAE74B /* ViewController.swift in Sources */,
 				C79EBB622875DA0100CAE74B /* AppDelegate.swift in Sources */,
 				C79EBB642875DA0100CAE74B /* SceneDelegate.swift in Sources */,
 				C79EBB6C2875DA0100CAE74B /* ToDoList.xcdatamodeld in Sources */,
+				C79EBB792875DA7400CAE74B /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +309,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
